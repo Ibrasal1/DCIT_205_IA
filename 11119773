@@ -1,3 +1,5 @@
+homepage.html
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -483,6 +485,642 @@
 </section>
 
 
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+about.html
+
+<!Doctype html>
+<html>
+    <head>
+        <title>COMPUTER SCIENCE DEPARTMENT</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">    
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <section class="flex">
+                <img class="school-logo" src="pictures/school logo.png">
+                <a href="http://127.0.0.1:5502/homepage.html" class="school-name">Univ. of Ghana</a>
+                <nav class="navbar">
+                    <a href="http://127.0.0.1:5500/homepage.html">home</a>
+                    <a href="http://127.0.0.1:5500/about.html">about us</a>
+                    <a href="http://127.0.0.1:5500/courses.html">courses</a>
+                    <a href="http://127.0.0.1:5500/staff.html">staff</a>
+                    <a href="http://127.0.0.1:5500/reviews.html">reviews</a>
+                    <a href="http://127.0.0.1:5500/contacts.html">contact us</a>
+                    <a href="#resources">resources</a>
+                    <a href="#events">events</a>
+                    <a href="#projects">student projects</a>
+                    <a href="#careers">careers</a>
+                </nav>
+        
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </section>
+        </header>
+        <section class="about" id="about">
+            <div class="row">
+                <div class="image">
+                    <img src="pictures/download (2).jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>why choose us?</h3>
+                    <p>The University of Ghana computer science department is the best place to learn about everything concerning computer science.we have well trained lecturers who have at least 5 years experience in the courses they teach.the lecturers are all well trained and they make sure you understand everthing they teach.</p>
+                    <p>This is the Information Technology age and at its core is Computer Science. The study of computer science is therefore critical if society is to take full advantage of the benefits Information Technology has to offer and make rapid economic advances. Computer science involves the study and development of applications that allow for our everyday use of computers, the software systems that support these applications, and the means and methods used to produce both applications and systems that behave reliably, correctly and ethically. At the heart of Computer Science lies the skill of computer programming and employers who hire Computer Scientists expect adept programmers with knowledge of current techniques and tools and the ability to apply sound engineering principles to the development, construction and maintenance of computer programs.</p>
+                    <p class="mission">our mission</p>
+                    <p>Our aim at the University of Ghana's Computer Science Department is to foster a creative and dynamic learning atmosphere that enables students to succeed in the rapidly changing field of computer science. Instilling in our students a solid foundation in theoretical concepts and practical skills, we are committed to cultivating a culture of academic excellence, research, and technological leadership.
+
+                        Three things are the aim of our mission:
+                        
+                        Academic Excellence: Our dedication lies in offering a thorough and demanding computer science education that gives our pupils the skills, knowledge, and critical thinking abilities they need to tackle challenging problems in the digital age. Our goal is to produce graduates who are eager to pursue a variety of careers in academia, business, and industry by using innovative curriculum design and pedagogical approaches. </p>
+                    <a href="#conact" class="btn">contact us</a>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+courses.html
+
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> COMPUTER SCIENCE DEPARTMENT </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">    
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <section class="flex">
+                <img class="school-logo" src="pictures/school logo.png">
+                <a href="http://127.0.0.1:5502/homepage.html" class="school-name">Univ. of Ghana</a>
+                <nav class="navbar">
+                    <a href="http://127.0.0.1:5500/homepage.html">home</a>
+                    <a href="http://127.0.0.1:5500/about.html">about us</a>
+                    <a href="http://127.0.0.1:5500/courses.html">courses</a>
+                    <a href="http://127.0.0.1:5500/staff.html">staff</a>
+                    <a href="http://127.0.0.1:5500/reviews.html">reviews</a>
+                    <a href="http://127.0.0.1:5500/contacts.html">contact us</a>
+                    <a href="#resources">resources</a>
+                    <a href="#events">events</a>
+                    <a href="#projects">student projects</a>
+                    <a href="#careers">careers</a>
+                </nav>
+        
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </section>
+        </header>
+        <section class="courses" id="courses">
+            <h1 class="heading">our <span>courses</span></h1>
+
+            <div class="swiper courses-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <img src="pictures/1_V-Jp13LvtVc2IiY2fp4qYw.jpg" alt="">
+                        <h3>web development</h3>
+                        <p>understand the fundamentals of web technlogies and create web based applications using latest technologies</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="pictures/shutterstock_765947833-digital-marketing.jpg" alt="">
+                        <h3>digital marketing</h3>
+                        <p>learn to start your own marketing agency online and advertise with the best technologies</p>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <img src="pictures/mobile-app-development-lifecycle.jpg" alt="">
+                        <h3>mobile app development</h3>
+                        <p>we provide world class technologies for mobile application development using the mobile-first worklight by IBM</p>
+                    </div>
+                    
+                    <div class="swiper-slide slide">
+                        <img src="pictures/Depositphotos_214972318_xl-2015-scaled.jpg" alt="">
+                        <h3>ethiclal hacking</h3>
+                        <p>Learn the various techniques to secure a computer system from illegal access</p>
+                    </div>
+                        
+                    <div class="swiper-slide slide">
+                        <img src="pictures/All.png" alt="">
+                        <h3>programming</h3>
+                        <p>learn about 70%of the programming languages and use them tocreate applications,games etc.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="pictures/logic based digital queing system.jpg" alt="">
+                        <h3>digital and logic designs</h3>
+                        <p>learn to create your own computer system</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="pictures/ABasicComputer.svg.png" alt="">
+                        <h3>computer architecture</h3>
+                        <p>learn about the components of the computer ad their functions</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+staff.html
+
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>COMPUTER SCIENCE DEPARTMENT</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">    
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <section class="flex">
+                <img class="school-logo" src="pictures/school logo.png">
+                <a href="http://127.0.0.1:5502/homepage.html" class="school-name">Univ. of Ghana</a>
+                <nav class="navbar">
+                    <a href="http://127.0.0.1:5500/homepage.html">home</a>
+                    <a href="http://127.0.0.1:5500/about.html">about us</a>
+                    <a href="http://127.0.0.1:5500/courses.html">courses</a>
+                    <a href="http://127.0.0.1:5500/staff.html">staff</a>
+                    <a href="http://127.0.0.1:5500/reviews.html">reviews</a>
+                    <a href="http://127.0.0.1:5500/contacts.html">contact us</a>
+                    <a href="#resources">resources</a>
+                    <a href="#events">events</a>
+                    <a href="#projects">student projects</a>
+                    <a href="#careers">careers</a>
+                </nav>
+        
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </section>
+        </header>
+        <section class="staff" id="staff">
+            <h1 class="heading">expert <span>tutors</span></h1>
+            <div class="swiper staff-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <img src="pictures/hq720.jpg" alt=>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                        <h3>Prof. MARK ATTA MENSAH (Head of department)</h3>
+                    </div>
+                    <div class="swiper-slide slide">
+                            <img src="pictures/IMG_20231128_134520.jpg" alt=>
+                            <div class="share">
+                                <a href="#" class="fab fa-facebook-f"></a>
+                                <a href="#" class="fab fa-twitter"></a>
+                                <a href="#" class="fab fa-instagram"></a>
+                                <a href="#" class="fab fa-linkedin"></a>
+                            </div>
+                            <h3>Prof. Prince</h3>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="pictures/WJI09692-683x1024.jpg" alt=>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                        <h3>Prof. Micheal</h3>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="pictures/blackmaleteacher.jpg" alt=>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                        <h3>Prof. Ibrahim</h3>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="pictures/portrait-african-american-male-teacher-260nw-388588393 (1).jpg" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                        <h3>Prof. Daniel</h3>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="pictures/images.jpeg" alt=>
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                        </div>
+                        <h3> MR. Benard</h3>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+reviews.html
+
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>COMPUTER SCIENCE DEPARTMENT</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">    
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <section class="flex">
+                <img class="school-logo" src="pictures/school logo.png">
+                <a href="http://127.0.0.1:5502/homepage.html" class="school-name">Univ. of Ghana</a>
+                <nav class="navbar">
+                    <a href="http://127.0.0.1:5500/homepage.html">home</a>
+                    <a href="http://127.0.0.1:5500/about.html">about us</a>
+                    <a href="http://127.0.0.1:5500courses.html">courses</a>
+                    <a href="http://127.0.0.1:5500/staff.html">staff</a>
+                    <a href="http://127.0.0.1:5500/reviews.html">reviews</a>
+                    <a href="http://127.0.0.1:5500/contacts.html">contact us</a>
+                    <a href="#resources">resources</a>
+                    <a href="#events">events</a>
+                    <a href="#projects">student projects</a>
+                    <a href="#careers">careers</a>
+                </nav>
+        
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </section>
+
+        </header>
+
+        <section class="reviews" id="reviews">
+            <h1 class="heading">reviews</h1>
+            <div class="swiper reviews-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <p>I truely enjoyed the class.The tutors are friendly,experienced and patient.They made me not to regret my decision to join their class and I really recommend them to you</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/5f3e7676c90c1.image_.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Daniel</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>Exceptional content! The tutors provide in-depth explanations that make learning a breeze</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/images (2).jpeg" alt="">
+                            <div class="user-info">
+                                <h3>Berlinda Mensah</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>Highly recommend this institution.The well structured lessons and quizzes helped me gasp complex concepts easily</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/2022-11-08_17-59-46-Copy-e1675713217683-2000x800.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Sarah</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>A valuable resource for students of all levels.The variety of courses covered ensures there is something for everyone</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/healthy-minds-study.png" alt="">
+                            <div class="user-info">
+                                <h3>Zaidan</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>An excellent tool for educators too.I use the site to supplement my lessons and my students find it helpful</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/iStock-947895226.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Collins</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>impressive design and user-friendly interface</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/Stigma-of-Seeking-Care.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Khadijatu</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>I truely enjoyed the class.</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/student-life-living-on-campus.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Addo Richid</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>I really recommend them to you</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/tz7n-7vqceaq86dprdnzag.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Samuella</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>This is by far the best pace i have learnt about computer science</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/031521_BlackStudentTrust_01.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Elvis</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>the website is very easy to acess</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/AdobeStock_241721867-scaled.jpeg" alt="">
+                            <div class="user-info">
+                                <h3>Jessica</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>This is a master class for a distinction in your computer science education life</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/106918576-1627532474886-gettyimages-871203832-pi-1589476.jpeg" alt="">
+                            <div class="user-info">
+                                <h3>IBRASAL</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>The best place to learn about computer science</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/campus_scenic_58v3606d.png" alt="">
+                            <div class="user-info">
+                                <h3>Safia</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>The course otline is very understable and simple</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/College_Hero.webp" alt="">
+                            <div class="user-info">
+                                <h3>Prince</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>The tutors are always punctual.A good sign of the best olace to learn</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/depositphotos_97876290-Smiling--college-student-in-university-classroom.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Gabi</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <p>The tutors always went the extra mile to make sure we understood everything they taught</p>
+                        <div class="user">
+                            <img class="pic" src="pictures/diverse-group-of-college-students-taking-selfie-1024x683.jpg" alt="">
+                            <div class="user-info">
+                                <h3>ISSAKA MUSAH</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+contacts.html
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>COMPUTER SCIENCE DEPARTMENT</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">    
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+
+        <header class="header">
+            <section class="flex">
+                <img class="school-logo" src="pictures/school logo.png">
+                <a href="http://127.0.0.1:5502/homepage.html" class="school-name">Univ. of Ghana</a>
+                <nav class="navbar">
+                    <a href="http://127.0.0.1:5502/homepage.html">home</a>
+                    <a href="http://127.0.0.1:5502/about.html">about us</a>
+                    <a href="http://127.0.0.1:5502/courses.html">courses</a>
+                    <a href="http://127.0.0.1:5502/staff.html">staff</a>
+                    <a href="http://127.0.0.1:5502/reviews.html">reviews</a>
+                    <a href="http://127.0.0.1:5502/contacts.html">contact us</a>
+                    <a href="#resources">resources</a>
+                    <a href="#events">events</a>
+                    <a href="#projects">student projects</a>
+                    <a href="#careers">careers</a>
+                </nav>
+
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </section>
+        </header>
+
+        <section class="contacts" id="contacts">
+            <h1 class="heading"><span>contact</span> us</h1>
+            <div class="row">
+                <div class="image">
+                    <img src="pictures/istockphoto-1366563287-640x640.jpg" alt="">
+                    <form actiom="" method="=post">
+                        <span>your name</span>
+                        <input type="text" required placeholder="ENTER YOUR FULLNAME" maxlength="50" name="name" class="box">
+                        <span>your email</span>
+                        <input type="email" required placeholder="ENTER YOUR EMAIL" maxlength="50" name="email" class="box">
+                        <span>your number</span>
+                        <input type="number" required placeholder="ENTER YOUR PHONE NUMBER" max="99999" min="0" name="number" class="box" onkeypress="if(this.value.length==10)return false;">
+                        <span>select course</span>
+                        <select name="courses" class="box" required>
+                            <option value="" disabled selected>select the course --</option>
+                            <option value="web development">web development</option>
+                            <option value="digital marketing">digital marketing</option>
+                            <option value="mobile app development">mbile app development</option>
+                            <option value="ethical hacking">ethical hacking</option>
+                            <option value="programming">programming</option>
+                            <option value="digitaland logic designs">digital and logic designs</option>
+                            <option value="ocmputer architecture">computer architecture</option>
+                            <option value="web development">web development</option>
+                        </select>
+                        <span>select gender</span>
+                        <div class="radio">
+                            <input type="radio" name="gender" value="male" id="male">
+                            <label for="male">male</label>
+                            <input type="radio" name="gender" value="female" id="female">
+                            <label for="female">female</label>
+                        </div>
+                        <input type="submit" value="send message" class="btn" name="send">
+                    </form>
+                </div>
+            </div>
+        </section>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="script.js"></script>
